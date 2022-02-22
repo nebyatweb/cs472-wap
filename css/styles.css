@@ -6,36 +6,28 @@ body {
   background-color: #eaf6f6;
 }
 
-#navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+nav {
+  padding: 12px;
   background-color: gray;
 }
 
-#navbar .active {
+nav .active {
   font-weight: bold;
   background-color: black;
 }
 
-#navbar a {
+nav a {
   text-decoration: none;
   font-size: 18px;
   color: whitesmoke;
 }
 
-#navbar li {
-  float: left;
-}
-
-#navbar a {
-  display: block;
+nav a {
   padding: 12px;
   background-color: gray;
 }
 
-#navbar a:hover {
+nav a:hover {
   background-color: #111;
 }
 
