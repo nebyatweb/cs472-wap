@@ -6,6 +6,39 @@ body {
   background-color: #eaf6f6;
 }
 
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+}
+
+#navbar .active {
+  font-weight: bold;
+  background-color: black;
+}
+
+#navbar a {
+  text-decoration: none;
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar a {
+  display: block;
+  padding: 12px;
+  background-color: gray;
+}
+
+#navbar a:hover {
+  background-color: #111;
+}
+
 h1,
 h3 {
   color: #66bfbf;
