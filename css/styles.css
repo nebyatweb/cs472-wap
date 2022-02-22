@@ -1,0 +1,19 @@
+body {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  background-color: #eaf6f6;
+}
+
+h1,
+h3 {
+  color: #66bfbf;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
