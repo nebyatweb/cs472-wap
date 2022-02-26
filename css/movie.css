@@ -116,8 +116,7 @@ div#left-banner {
 #bottom-right {
   position: fixed;
   right: 0;
-  bottom: 5px;
-  float: right;
+  bottom: 0px;
   opacity: 50%;
 }
 
