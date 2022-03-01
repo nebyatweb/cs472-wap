@@ -1,0 +1,12 @@
+#counter {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6rem;
+  color: azure;
+  font-family: sans-serif;
+}
+body {
+  background-color: black;
+}
