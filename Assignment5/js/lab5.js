@@ -63,6 +63,8 @@ function findLongestWord(arr) {
 }
 
 //Question 7: a function that filters words with length greater than i
+
+//imperative approach
 function filterLongWords(wordArr, i) {
     let newArr = new Array();
     for(let j=0; j<wordArr.length; j++){
@@ -72,6 +74,13 @@ function filterLongWords(wordArr, i) {
     }
     return newArr;
 }
+
+//Declarative approach (functional programming)
+function filterLongWords(wordArr, i) {
+    let newArr = wordArr.filter(w => w.length > i);
+    return newArr;
+}
+
 
 //Question 8: sum of squares using functional programming
 function computeSumOfSquares(numArr) {
