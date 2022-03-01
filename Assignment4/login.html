@@ -15,7 +15,7 @@
   </head>
   <body>
     <div id="container">
-      <form>
+      <form action="">
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label"
             >Email address</label
@@ -55,13 +55,21 @@
           />
         </div>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="exampleCheck1"
+            required
+          />
           <label class="form-check-label" for="exampleCheck1"
             >Check me out</label
           >
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary" id="submitBtn">
+          Submit
+        </button>
       </form>
     </div>
+    <script src="./js/login.js"></script>
   </body>
 </html>
