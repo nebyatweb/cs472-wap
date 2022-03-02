@@ -121,14 +121,16 @@ function findSecondBiggest(arr) {
         return;
     }
 
-    arr.sort();
+    var biggest, secondBiggest;
+    biggest = secondBiggest = Number.NEGATIVE_INFINITY;
+    arr.forEach((a) => {
+        biggest = a > biggest ? a:biggest
+    });
 
-    for(let i=arr.length-1; i >=0; i--){
-        if(arr[i] !== arr[i+1]){
-            return arr[i];
-        }
-    }
-    return;
+    arr.forEach((a) => {
+        secondBiggest = a > secondBiggest &&  a < biggest ? a:secondBiggest
+    });
+    return secondBiggest;
 }
 
 //Question 13: a function that prints a fibonacci sequence
